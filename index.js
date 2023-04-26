@@ -12,7 +12,7 @@ console.log(`
 `);
 
 const server = http.createServer();
-const url = "https://goku.to";
+const url = "https://soap2day.ac";
 const PORT = process.env.PORT || 8080;
 
 server.on('request', async (req, res) => {
