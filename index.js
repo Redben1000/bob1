@@ -12,7 +12,7 @@ console.log(`
 `);
 
 const server = http.createServer();
-const url = "https://wuww.ssoap2day.to/";
+const url = "https://ssoap2day.to";
 const PORT = process.env.PORT || 8080;
 
 server.on('request', async (req, res) => {
