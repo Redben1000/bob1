@@ -12,7 +12,7 @@ console.log(`
 `);
 
 const server = http.createServer();
-const url = "https://www.google.com";
+const url = "https://www.google.com/?safe=active&ssui=on";
 const PORT = process.env.PORT || 8080;
 
 server.on('request', async (req, res) => {
