@@ -12,7 +12,7 @@ console.log(`
 `);
 
 const server = http.createServer();
-const url = "https://basketbros.io/";
+const url = "https://www.google.com";
 const PORT = process.env.PORT || 8080;
 
 server.on('request', async (req, res) => {
